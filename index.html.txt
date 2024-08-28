@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<title>My first website</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&ampdisplay=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="roboto">
+		<header class="splash">
+			<div class="splash-inner">
+				<div class="container">
+					<i class="fa-solid fa-dragon"></i>
+					<h1 class="page-title">Tekst powitalny</h1>
+					<h2 class="page-subtitle">Dowolna treść</h2>
+				</div>
+			</div>
+		</header>
+		<section class="intro">
+			<div class="container">
+				<p>
+					Dowolna teść <br />
+					(bez żadnej klasy)
+				</p>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<h2 class="section-title">kim jesteś, co robisz</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt
+				</p>
+				<p>
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+					commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+					velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+					occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+					mollit anim id est laborum.
+				</p>
+			</div>
+		</section>
+		<section class="skills">
+			<div class="container">
+				<h2>Dowolna treść</h2>
+				<ul class="nie-wiem-jaka-tu-ma-być-klasa">
+					<li class="skill-left">
+						<div class="skill-image">
+							<img
+								src="https://i.postimg.cc/7LGwGkCG/pexels-vasilis-karkalas-155349971-25975158-1.jpg"
+								alt=""
+								title="Tytuł obrazka"
+							/>
+						</div>
+						<div class="skill-description">
+							<h3 class="skill-title">Żółw</h3>
+							<p>Żółwie chodzą wolno i lubią jeść sałate</p>
+						</div>
+					</li>
+					<li class="skill-right">
+						<div class="skill-image-right">
+							<img
+								class="img-right"
+								src="https://i.postimg.cc/P5bFSVB3/pexels-eikenaar-26201918-1.jpg"
+								alt=""
+								title="Tytuł obrazka"
+							/>
+						</div>
+						<div class="skill-description-right">
+							<h3 class="skill-title">Pingwiny</h3>
+							<p>Pingwiny chyba lubią jak jest zimno i nieźle pływają</p>
+						</div>
+					</li>
+					<li class="skill-left">
+						<div class="skill-image">
+							<img
+								src="https://i.postimg.cc/k53RgfGm/pexels-tomas-malik-793526-23914504.jpg"
+								alt=""
+								title="Tytuł obrazka"
+							/>
+						</div>
+						<div class="skill-description">
+							<h3 class="skill-title">Kangury</h3>
+							<p>
+								Kangury skaczą wysoko i mogą chować małe kangury do swoich toreb
+								na brzuchu
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer class="page-footer">
+			<div class="container2"></div>
+		</footer>
+	</body>
+</html>
